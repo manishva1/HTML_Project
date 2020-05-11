@@ -1,0 +1,26 @@
+manis@DESKTOP-CEKRP6F MINGW64 /
+$ cd /c
+
+manis@DESKTOP-CEKRP6F MINGW64 /c
+$ ls
+'$Recycle.Bin'/             git/                 Intel/      OneDriveTemp/  'Program Files'/         Recovery/                     TEMP/
+'$SysReset'/                hiberfil.sys         MinGW/      pagefile.sys   'Program Files (x86)'/   swapfile.sys                  Users/
+'Documents and Settings'@   InstalledSoftware/   MSOCache/   PerfLogs/       ProgramData/           'System Volume Information'/   Windows/
+
+manis@DESKTOP-CEKRP6F MINGW64 /c
+$ cd git/
+
+manis@DESKTOP-CEKRP6F MINGW64 /c/git
+$ ls
+HTML_Project/
+
+manis@DESKTOP-CEKRP6F MINGW64 /c/git
+$ git config --global user.name "manishva1"
+
+manis@DESKTOP-CEKRP6F MINGW64 /c/git
+$ git config --global user.email manishv9794@gmail.com
+
+manis@DESKTOP-CEKRP6F MINGW64 /c/git
+$ git clone https://github.com/manishva1/HTML_Project.git
+fatal: destination path 'HTML_Project' already exists and is not an empty directory.
+
